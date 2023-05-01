@@ -1,0 +1,62 @@
+@media screen and (max-width: 1250px) {
+ .center {
+  padding-left: calc(50vw - 360px);
+  padding-right: calc(50vw - 360px);
+ }
+ body {
+  font-size: 12px;
+ }
+ /*offer*/
+ .offer {
+  padding-top: 180px;
+  padding-bottom: 110px;
+ }
+ .offer__title {
+  max-width: 360px;
+  font-size: 36px;
+  margin-bottom: 40px;
+ }
+ .offer__desc {
+  font-size: 20px;
+  margin-bottom: 40px;
+ }
+ /*offer*/
+ /*services*/
+ .services {
+  justify-content: center;
+ }
+ .services__title {
+  font-size: 20px;
+ }
+ .services__icon {
+  margin-bottom: 20px;
+ }
+ /*services*/
+ /*about*/
+ .about {
+  flex-direction: column-reverse;
+  align-items: center;
+ }
+ /*about*/
+}
+
+@media screen and (max-width: 760px) {
+ .center {
+  padding-left: calc(50vw - 200px);
+  padding-right: calc(50vw - 200px);
+ }
+
+ .form {
+  grid-template-columns: 1fr;
+  grid-template-rows: unset;
+ }
+ .form__input.form__input--textarea,
+ .form__chechbox,
+ .form .button {
+  grid-column: unset;
+  grid-row: unset;
+ }
+ .form__input.form__input--textarea {
+  height: 200px;
+ }
+}
